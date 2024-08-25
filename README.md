@@ -5,6 +5,8 @@ This is a *test* online supermarket built with React.
 
 The webapp is hosted by Netlify, to visit: [Click me!](https://coolsuperm.netlify.app/)
 
+Visit a video introduction to the website on Youtube: [https://www.youtube.com/watch?v=Qt66vd1qVfM](https://www.youtube.com/watch?v=Qt66vd1qVfM)
+
 
 ## Local setup
 
