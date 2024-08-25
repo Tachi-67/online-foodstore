@@ -39,8 +39,8 @@ export default function Cart({ cart }) {
         .redirectToCheckout({
           lineItems: lineItems,
           mode: "payment",
-          successUrl: "https://superm.react-tutorial.app/",
-          cancelUrl: "https://superm.react-tutorial.app/",
+          successUrl: "https://coolsuperm.netlify.app/",
+          cancelUrl: "https://coolsuperm.netlify.app/",
           customerEmail: email,
         })
         .then((response) => {
