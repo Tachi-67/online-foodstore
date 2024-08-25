@@ -9,7 +9,7 @@ export default function Navbar(props) {
   return (
     <nav className="navbar">
       <NavLink to="/" className="nav-brand">
-        SuperM
+        Cool SuperM
       </NavLink>
       <ul>
         <li className="nav-item">

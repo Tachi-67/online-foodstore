@@ -3,7 +3,6 @@ import { loadStripe } from "@stripe/stripe-js";
 import Input from "./Input";
 import Button from "./Button";
 
-// TODO: Replace with your own publishable key
 const stripeLoadedPromise = loadStripe("pk_test_51Prn3NRqIjP3g1ytAdmKDtAKY3pE3WluWrxmCmBIHzPzfXmQLxAVah2uwuhkVNh2bhzXbdyQHiPSKPpL5IsxPrdr00KPp8O3bT");
 
 const oldPriceId2NewPriceId = {
@@ -109,10 +108,6 @@ export default function Cart({ cart }) {
                 Enter your email and then click on pay and your products will be
                 delivered to you on the same day!
                 <br />
-                <em>
-                  Enter your own Stripe Publishable Key in Cart.js for the
-                  checkout to work
-                </em>
               </p>
               <Input
                 placeholder="Email"
