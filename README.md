@@ -18,4 +18,4 @@ Then run `npm run build`, or `npm run dev` if you wish to run the development ve
 [https://coolsuperm.netlify.app/](https://coolsuperm.netlify.app/)
 
 ## Components structure
-![project structure]("fig/components.png")
+![project structure](fig/components.png)
